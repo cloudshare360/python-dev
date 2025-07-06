@@ -34,7 +34,18 @@ The name 'Pandas' is short for one of the following: Pane; Data
 ## Pandas Getting Started
 
 ### installing Pandas
-
+```
 pip install pandas
+```
+### Validated if Pandas is installed
+```
+pip3 show pandas
+```
+```
+python3 -c "import pandas; print(pandas.__version__)"
+```
+or
 
-
+```
+pip3 show pandas | grep Version
+```
