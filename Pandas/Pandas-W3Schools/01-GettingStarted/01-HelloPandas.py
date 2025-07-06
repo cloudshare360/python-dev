@@ -8,3 +8,7 @@ mydataset = {
 myvar = pandas.DataFrame(mydataset)
 
 print(myvar)
+
+myvar = pandas.DataFrame(myvar, index = ["x", "y", "z"])
+
+print(myvar)
