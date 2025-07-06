@@ -49,3 +49,22 @@ or
 ```
 pip3 show pandas | grep Version
 ```
+
+# Pandas Series
+## What is a Series?
+
+a pandas Series is like a column in a table
+it is a one dimensional array holding data of any type
+
+Create a simple Pandas Series from a list:
+
+```
+import pandas as pd
+
+a = [1, 7, 2]
+
+myvar = pd.Series(a)
+
+print(myvar)
+
+```
