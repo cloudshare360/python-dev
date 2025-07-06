@@ -68,3 +68,9 @@ When specifying a range, the return value will be a new list with the specified 
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[5])
 print(thislist[2:5])
+# This example returns the items from the beginning to, but NOT including, "kiwi":
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[:4])
+# This example returns the items from "cherry" to the end:
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(thislist[2:])
