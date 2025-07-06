@@ -1,3 +1,11 @@
+import array
+
+my_array = array.array('i', [1, 2, 3])
+
+print("print(type(my_array))", type(my_array))
+my_list = [1, "hello", 3.14]
+
+print("my_list = [1, 'hello', 3.14]", type(my_list))   # <class 'list'>
 
 
 # Arrays are used to store multiple values in one single variable:
@@ -53,3 +61,6 @@ print("printing array after pop", cars);
 cars.remove("Honda")
 
 print("printing array after pcars.remove('Honda')", cars);
+
+my_var = [1, 2, 3]
+print(type(my_var))  # Output: <class 'list'>
